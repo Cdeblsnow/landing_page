@@ -174,7 +174,7 @@ button{
     margin-left: -350px;
     margin-top: 20px;
     padding-top: 200px;
-    font-size: 25px;
+    font-size:  20px;
 }
 
 .cuatro{
@@ -220,4 +220,9 @@ button{
     margin-top: auto;
     display: flex;
     background-color: #1f2937;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
