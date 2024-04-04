@@ -111,12 +111,44 @@ button{
 
 .dos{
     background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 
 .titler{
     text-align: center;
-    font-size: 18px;
+    font-size: 36px;
     color: #1f2937;
+    font-weight: bolder;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+}
+
+ .info img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.dtext{
+    color: #1f2937;
+    text-align: center;
+}
+
+.info{
+    max-width: 400px;
+}
+.content img {
+    border: #3882f6 5px solid;
+    border-radius: 8px;
+    
 }
 .tre{
     background-color: blue;
