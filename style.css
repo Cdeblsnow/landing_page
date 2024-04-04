@@ -19,18 +19,6 @@ body {
     justify-content: space-between;
 }
 
-.right,
-.left{
-    display: flex;
-    align-items: center;
-    gap: 16px;  
-}
-
-.right {
-    justify-content: flex-end;
-   
-    
-}
 
 .right_links{
     display: flex;
@@ -100,9 +88,9 @@ a{
 
 button{
     background-color: #3882f6;
-    color: #E5E7EB;
+    color: #ffffff;
     border-radius: 8px;
-    border-color: #3882f6;
+    border: #3882f6 solid;
     box-shadow: none;
     padding: 8px 20px 8px 20px;
     box-shadow: none;
@@ -202,9 +190,30 @@ button{
     display: flex;
     flex-wrap: wrap;
     background-color: #3882f6;
-    max-width: 950px;
-    align-content: center;
-    justify-content: center;
+    padding: 50px 200px 50px 200px;
+    border-radius: 8px;
+    justify-content: space-between;
+    width: 60%;
+   
+}
+
+.right .title {
+    font-size: 25px;
+}
+.right{
+    display:flex ;
+    flex-direction: column;
+
+}
+
+.left{
+    display: flex;
+    align-self: center;
+    
+}
+
+.left button {
+    border: #ffffff 2px solid;
 }
 
 .footer {
